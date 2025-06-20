@@ -1,0 +1,285 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* CSS for nav bar */
+.header-container{
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 20px;
+    background-color: #f8f8f8;
+    position: sticky;
+}
+
+/* CSS for upper part of nav bar */
+.header-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 80px;
+}
+.header-upper img{
+    height: 56px;
+    box-sizing: border-box;
+}
+.header-upper-mid{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 430px;
+}
+.header-upper-mid li img{
+    width: 36px;
+    height: 36px;
+}
+.header-upper-mid li{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+}
+.header-upper-mid li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: 400;
+}
+.header-upper-mid li:hover{
+    border-bottom: 3px solid black;
+    font-weight: 600;
+}
+.header-upper-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.header-upper-end a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: 500;
+}
+.header-upper-end img{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #e9e9e9;
+    border-radius: 50%;
+}
+/* CSS for lower part of nav bar */
+
+.header-lower{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    height: 66px;
+    width: 850px;
+    box-shadow: 4px 4px 15px rgba(184, 183, 183, 0.495);
+    border: 2px solid #e9e9e9;
+    border-radius: 50px;
+}
+.header-lower a{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0 40px;
+}
+.header-lower a:hover{
+    text-decoration: none;
+    background-color: #e9e9e9;
+    border-radius: 33px;
+    color: black;
+    margin: 0;
+}
+.header-lower a input{
+    width: 200px;
+    height: 20px;
+    margin: 0px auto;
+    border: none;
+}
+.header-lower a input::placeholder{
+    font-size: 15px;
+    border: none;
+}
+.header-lower a input:hover{
+    width: 200px;
+    height: 20px;
+    background-color: #e9e9e9;
+    margin: 0px auto;
+    border: none;
+}
+.header-lower img{
+    background-color: #FF385C;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: auto 10px;
+}
+.header-lower p{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px auto 0 auto;
+}
+
+
+/* CSS for main body of the website */
+
+
+.complete-row{
+    margin: 40px 75px;
+}
+.complete-row a{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.row-items{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    position: relative;
+    margin: 20px 0;
+    width: 190px;
+    box-sizing: content-box;
+}
+.tag-img{
+    height: 10px;
+    width: 10px;
+}
+.img-tag{
+    position: absolute;
+    color: #393939;
+    font-weight: 600;
+    padding: 5px 10px;
+    top: 0;
+    left: 10px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    font-size: small;
+    letter-spacing: -.5px;
+}
+.card img{
+    border-radius: 20px;
+    width: 190px;
+    height: 190px;
+}
+
+/* CSS footer of the site */
+.footer-container{
+    background-color: #f8f8f8;
+}
+
+/* CSS footer for above part */
+
+.footer-above{
+    margin: 50px;
+    padding-top: 20px; ;
+}
+.footer-above p{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 50px;
+}
+.footer-above .unique{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+    padding: 5px 50px;
+}
+.footer-above .unique:hover{
+    font-weight: 600;
+    border-bottom: 3px soild black;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px 50px;
+}
+.box-link{
+    color: black;
+    margin: 5px 20px;
+    font-weight: 600;
+}
+.box-link a{
+    font-weight: 400;
+    color: gray;
+    text-decoration: none;
+}
+.box-link a:hover{
+    color: black;
+}
+.box-link:hover{
+    color: black;
+    cursor: pointer;
+}
+/* CSS part for middle part of footer */
+
+.footer-middle{
+    margin: 10px 300px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.first p{
+    color: #393939;
+}
+.first p:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline  ;
+}
+.second p{
+    color: #393939;
+}
+.second p:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline  ;
+}
+.third p{
+    color: #393939;
+}
+.third p:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline  ;
+}
+.heading{
+    color: black;
+    font-weight: 600;
+
+}
+/* CSS footer bottom part */
+
+
+.footer-below{
+    border-top: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+}
+.start{
+    margin: 30px;
+
+}
+.start a{
+    color: black;
+    text-decoration: none;
+}
+.end{
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+    margin: 30px;
+}
+.end img{
+    width: 20px;
+}
+.end a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
