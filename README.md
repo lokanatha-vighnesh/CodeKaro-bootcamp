@@ -1,4 +1,7 @@
-Hi,
-Here are my answers for Day 1 of the Codekaro Bootcamp.
+Codekaro Bootvamp Project: Airbnb clone on Day-5
 
-These are my initial attempts, and I know there’s a lot improvements needed. I can make them much better with time and practice.
+This repository contains the project related to my final submission for the Codekaro Bootcamp.
+
+The bootvamp was an intensive 5-day program designed to master the fundamentals of CSS and responsive web design through project-based learning.
+
+Hope this helps :)
